@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6;
+}
+.home {
+	text-align: center;
+	height: 100vh;
+	padding: 1.5rem;
+	background-image: url('./assets/images/29618834808_f8d5d65045_k.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.calculator {
+	text-align: center;
+	height: 100vh;
+	padding: 1.5rem;
+	background-color: #5ed5de;
+}
+.start-button {
+	font-weight: bold;
+	border: none;
+	padding: 1rem;
+	border-radius: 12px;
+	background-color: rgb(94, 218, 218);
+	color: white;
+}
+.start-button:hover {
+	color: black;
+	background-color: rgb(255, 221, 27);
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 300px;
+}
+.switch input {
+	display: none;
+}
+
+.switch label :checked + span {
+	background-color: rgb(255, 221, 27);
+	color: black;
+}
+
+.switch label span {
+	display: inline-block;
+	background: rgb(223, 223, 223);
+	margin: 0.5rem;
+	height: 2em;
+	width: 4em;
+	line-height: 2em;
+	text-align: center;
+	border-radius: 12px;
+}
