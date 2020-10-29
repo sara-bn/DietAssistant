@@ -56,11 +56,11 @@ body {
 	display: inline-block;
 	background: rgb(223, 223, 223);
 	margin: 0.5rem;
-	height: 2em;
-	width: 4em;
-	line-height: 2em;
+	height: 4em;
+	width: 6em;
 	text-align: center;
 	border-radius: 12px;
+	padding: 20px;
 }
 .main {
 	text-align: center;
@@ -89,6 +89,7 @@ select {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
+	margin-top: 10px;
 }
 
 .submit-button {
@@ -99,6 +100,18 @@ select {
 	text-align: center;
 	font-weight: bold;
 	margin-top: 20px;
+	border: none;
+	border-radius: 4px;
+	padding: 20px;
+}
+.result {
+	font-size: 24px;
+	color: rgb(35, 0, 131);
+}
+.result span {
+	background-color: rgb(255, 219, 59);
+	font-weight: bold;
+	padding: 5px;
 }
 @media (min-width: 720px) {
 	.main {

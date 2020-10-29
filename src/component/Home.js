@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../assets/images/logo_transparent.png';
+import { Link } from "react-router-dom";
 function Home() {
 
     return (
     <div className="home">
         <img className='logo' src={logo} alt='logo' ></img> 
         <h1>Daily Caloric Needs</h1>
-        <button className="start-button">Click here to start</button>
+        <Link className="start-button" to="/calculator">Click here to start</Link>
     </div>
     );
 }
