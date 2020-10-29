@@ -6,7 +6,7 @@ import {calculate} from './formula';
 const UserDataForm = (props) => {
     const [result, setResult] = useState("");
     const isMetric = props.isMetric
-    const initialValue= { weight:"", height:"" , age:"", sex:"female", activityLevel:"1.2"}
+    const initialValue= { weight:"", height:"", inch:"", age:"", sex:"female", activityLevel:"1.2"}
     const fromInputSchemaForMetric = Yup.object().shape({
         weight: Yup.number()
             .typeError("Please enter a number")
