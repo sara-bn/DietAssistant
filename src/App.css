@@ -99,10 +99,9 @@ select {
 }
 .result {
 	font-size: 24px;
-	color: rgb(35, 0, 131);
+	border: 4px double rgb(255, 230, 0);
 }
 .result span {
-	background-color: rgb(255, 219, 59);
 	font-weight: bold;
 	padding: 5px;
 }
