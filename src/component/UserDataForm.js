@@ -94,7 +94,6 @@ const UserDataForm = (props) => {
             <p>Your BRM is <span>{result.BMR}</span> , and <span>{result.CaloriesPerDay}</span> is the maintenance calories per day</p>
             </div>
             }
-          
         </div>    
     )
 }
