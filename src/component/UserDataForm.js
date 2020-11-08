@@ -91,7 +91,7 @@ const UserDataForm = (props) => {
         )}         
         </Formik>
         {result && <div className="result">
-            <p>Your BRM is <span>{result.BMR}</span> , and <span>{result.CaloriesPerDay}</span> is the maintenance calories per day</p>
+            <p>Your BMR is <span>{result.BMR}</span> , and <span>{result.CaloriesPerDay}</span> is the maintenance calories per day</p>
             </div>
             }
         </div>    
